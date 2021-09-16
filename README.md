@@ -1,1 +1,2 @@
-# sdg-fypm-front
+# sdg-fypm
+Final Year Project Management SDG Project
