@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <script src="home.js" defer></script>
+    <title>PMS | DYP RAIT</title>
 </head>
+<!-- header -->
+
+
 <body>
-    <a href="sub.html">Submission Page</a>  
-    <a href="eval.html">EvalPage</a>    
+    <header>
+        <nav></nav>
+        <div id="navbar">
+            <div id="logo">
+                <img src="rait.png" id="imglogo">
+            </div>
+
+
+            <div id="app-title">
+                <!-- <div id="check">✅</div> -->
+                <div>
+                    <h1>PROJECT MANAGEMENT MODULE</h1>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main id="app">
+        <section id="board">
+            <div id="infos">
+                <div class="square">
+                    <!-- ADD 2 BUTTON -->
+                </div>
+
+            </div>
+            <div id="add-task-form">
+                <input id="task-value" placeholder="Add task">
+                <button id="add-task">+</button>
+            </div>
+           
+           
+           
+            
+            
+        </section>
+        <section id="columns">
+            <div id="members">
+                <h3 class="column-title">Members</h3>
+                <div class="space"></div>
+                <h3 class="memberheader">Mentor Name</h3>
+                <h3 class="member">Mentor Name</h3>
+                <h3 class="memberheader">Member Names</h3>
+                <h3 class="member">Member Name</h3>
+                <h3 class="member">Member Name</h3>
+                <h3 class="member">Member Name</h3>
+                <h3 class="member">Member Name</h3>
+
+
+
+                </ul>
+            </div>
+            <div id="button">
+               
+                <a href='sub.html'><button id="submit-button">Submit </button></a>
+            </div>
+            
+       
+            <div class="column dropzone">
+                <h3 class="column-title">To-Do</h3>
+                <ul class="tasks" id="tasks-added">
+
+                </ul>
+            </div>
+           
+           
+            
+            
+        </section>
+    </main>
 </body>
+
 </html>
