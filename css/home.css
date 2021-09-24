@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/res/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -260,8 +260,28 @@ body {
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
-  cursor: pointer;
 }
+
+#submit{
+  background: #8B0015;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-left: 1050px;
+}
+#submit:hover {
+  box-shadow: 0px 4px 20px #8B0015;
+}
+
+
+
 #add-task-form #add-task:focus {
   outline: 0;
 }
@@ -270,7 +290,7 @@ body {
 }
 #columns {
     margin-left: -80px;
-  margin-top: 100px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -280,7 +300,6 @@ body {
 .space{
     height: 20px;
 }
-
 #members {
   flex: 0 0 auto;
   width: 250px;
@@ -290,21 +309,6 @@ body {
   border-radius: 5px;
   margin-left: 30px;
   background-color: white;
-}
-#button #submit-button {
-  background: #8B0015;
-  border: none;
-  border-radius: 5px;
-  width: 100px;
-  top: 220px;
-  right: 100px;
-  height: 35px;
-  font-family: Lato;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
-  color: #FFFFFF;
-  cursor: pointer;
 }
 .memberheader{
   margin: 10px 16px 0 20px;
@@ -326,8 +330,8 @@ body {
 }
 .column {
   flex: 0 0 auto;
-  width: 850px;
-  height: 320px;
+  width: 250px;
+  height: 520px;
   background: #FFFFFF;
   box-sizing: border-box;
   border-radius: 5px;
